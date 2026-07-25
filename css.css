@@ -1,3 +1,75 @@
-h1{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6f7fb;
+    color: #333;
+}
+header {
+    background: #013a63;
+    color: #fff;
+    padding: 24px 20px;
     text-align: center;
+}
+header h1 {
+    margin: 0 0 8px;
+    font-size: 2rem;
+}
+nav {
+    margin-top: 12px;
+}
+nav a {
+    color: #f3f6fb;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 24px 20px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+section {
+    margin-bottom: 24px;
+    background: #fff;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.card {
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 1px solid #e0e2e7;
+    border-radius: 8px;
+    background: #fafbfe;
+}
+form input,
+form select,
+form textarea,
+form button {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #c6cbd7;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+form button {
+    background: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background: #005bb5;
+}
+ul,
+ol {
+    margin: 0;
+    padding-left: 20px;
 }

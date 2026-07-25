@@ -3,24 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register - NRIIT</title>
+    <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    
-    <header>Home 
-        <br>
-       <h1></h1> NRIIT REGISTER </h1>
-       <p>Learn practiced get placed</p>
-       <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="login.html">Login</a>
-        <a href="register.html">Register</a>
-        <a href="courses.html">Courses</a>
-        <a href="trainers.html">Trainers</a>
-        <a href="contact.html">Contacts</a>
-       </nav>
+    <header>
+        <h1>Register for NRIIT</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="trainers.html">Trainers</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contacts</a>
+        </nav>
     </header>
-    
+    <main>
+        <section>
+            <h2>Create your student profile</h2>
+            <form>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Your full name" required><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required><br>
+                <label for="course">Course</label><br>
+                <select id="course" name="course" required>
+                    <option value="python">Python Full Stack</option>
+                    <option value="web">Web Development</option>
+                    <option value="flutter">Flutter Development</option>
+                    <option value="data">Data Science</option>
+                </select><br>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
