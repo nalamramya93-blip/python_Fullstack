@@ -3,43 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
   <title>Contact - NRIIT</title>
 </head>
 <body>
-  <header>
-    <h1>Contact</h1>
-    <nav>
+  <header class="site-header">
+    <div class="brand"><a href="index.html">NRIIT Learning</a></div>
+    <nav class="site-nav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="courses.html">Courses</a>
       <a href="trainers.html">Trainers</a>
-      <a href="login.html">Login</a>
       <a href="register.html">Register</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <main>
-    <h2>Contact NRIIT</h2>
-    <h3>Contact Information</h3>
-    <p>Email: info@nriit.edu</p>
-    <p>Phone: +91 9876543210</p>
-    <p>Address: Andhra Pradesh, India</p>
-    <h3>Send us a Message</h3>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" placeholder="Your name" required>
-      <br><br>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Your email" required>
-      <br><br>
-      <label for="subject">Subject:</label>
-      <input type="text" id="subject" name="subject" placeholder="Subject" required>
-      <br><br>
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
-      <br><br>
-      <button type="submit">Send Message</button>
-    </form>
+  <main class="main-container">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Contact</span>
+        <h1>Get in touch with the NRIIT team</h1>
+        <p>Have questions about courses, placement support, or enrollment? Reach out and we’ll get back to you promptly.</p>
+      </div>
+    </section>
+
+    <section class="contact-card">
+      <h3>Contact Information</h3>
+      <p>Email: info@nriit.edu</p>
+      <p>Phone: +91 9876543210</p>
+      <p>Address: Andhra Pradesh, India</p>
+    </section>
+
+    <section class="contact-card">
+      <h3>Send us a Message</h3>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
   </main>
+
+  <footer class="footer">
+    <p>© 2026 NRIIT Learning Management. Professional training with a human touch.</p>
+  </footer>
 </body>
 </html>

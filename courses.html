@@ -3,31 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
   <title>Courses - NRIIT</title>
 </head>
 <body>
-  <header>
-    <h1>Courses in NRIIT</h1>
-    <nav>
+  <header class="site-header">
+    <div class="brand"><a href="index.html">NRIIT Learning</a></div>
+    <nav class="site-nav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="courses.html">Courses</a>
       <a href="trainers.html">Trainers</a>
-      <a href="login.html">Login</a>
       <a href="register.html">Register</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <main>
-    <h2>Available Courses</h2>
-    <h3>1. Python Full Stack Development</h3>
-    <p>Duration: 3 months | Learn Python, Django, HTML, CSS, JavaScript, and React.</p>
-    <h3>2. Web Development</h3>
-    <p>Duration: 2 months | Master HTML, CSS, JavaScript, and responsive web design.</p>
-    <h3>3. Flutter Development</h3>
-    <p>Duration: 3 months | Build mobile apps with Flutter and Dart for iOS and Android.</p>
-    <h3>4. Data Science</h3>
-    <p>Duration: 2.5 months | Learn Python, data analysis, and machine learning fundamentals.</p>
+  <main class="main-container">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Courses</span>
+        <h1>High-impact programs for fast skill growth</h1>
+        <p>Choose from carefully designed courses that combine practical projects, expert mentoring, and real-world tools.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Available Courses</h2>
+      <div class="cards-grid">
+        <article class="course-card">
+          <h3>Python Full Stack Development</h3>
+          <p>Duration: 3 months | Learn Python, Django, HTML, CSS, JavaScript, and React.</p>
+        </article>
+        <article class="course-card">
+          <h3>Web Development</h3>
+          <p>Duration: 2 months | Master HTML, CSS, JavaScript, and responsive web design.</p>
+        </article>
+        <article class="course-card">
+          <h3>Flutter Development</h3>
+          <p>Duration: 3 months | Build mobile apps with Flutter and Dart for iOS and Android.</p>
+        </article>
+        <article class="course-card">
+          <h3>Data Science</h3>
+          <p>Duration: 2.5 months | Learn Python, data analysis, and machine learning fundamentals.</p>
+        </article>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <p>© 2026 NRIIT Learning Management. Learn skills that employers value.</p>
+  </footer>
 </body>
 </html>

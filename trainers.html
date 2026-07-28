@@ -3,31 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
   <title>Trainers - NRIIT</title>
 </head>
 <body>
-  <header>
-    <h1>Trainers in NRIIT</h1>
-    <nav>
+  <header class="site-header">
+    <div class="brand"><a href="index.html">NRIIT Learning</a></div>
+    <nav class="site-nav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="courses.html">Courses</a>
       <a href="trainers.html">Trainers</a>
-      <a href="login.html">Login</a>
       <a href="register.html">Register</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <main>
-    <h2>Our Expert Trainers</h2>
-    <h3>Trainer 1: Priya Kumar</h3>
-    <p>Specialization: Python Full Stack | Experience: 8 years</p>
-    <h3>Trainer 2: Anand Raj</h3>
-    <p>Specialization: Web Development | Experience: 6 years</p>
-    <h3>Trainer 3: Sangeetha Sharma</h3>
-    <p>Specialization: Flutter Development | Experience: 5 years</p>
-    <h3>Trainer 4: Rohit Singh</h3>
-    <p>Specialization: Data Science | Experience: 7 years</p>
+  <main class="main-container">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Training team</span>
+        <h1>Learn from instructors who bring real product experience</h1>
+        <p>Our trainers are industry professionals who guide every project, answer your questions, and help you apply your learning effectively.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Our Trainers</h2>
+      <div class="training-grid">
+        <article class="trainer-card">
+          <h3>Priya Kumar</h3>
+          <p>Python Full Stack | 8 years of experience mentoring developers and building applications.</p>
+        </article>
+        <article class="trainer-card">
+          <h3>Anand Raj</h3>
+          <p>Web Development | 6 years of experience delivering full-stack web solutions.</p>
+        </article>
+        <article class="trainer-card">
+          <h3>Sangeetha Sharma</h3>
+          <p>Flutter Development | 5 years creating mobile experiences for Android and iOS.</p>
+        </article>
+        <article class="trainer-card">
+          <h3>Rohit Singh</h3>
+          <p>Data Science | 7 years in analytics, machine learning, and data-driven products.</p>
+        </article>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <p>© 2026 NRIIT Learning Management. Expert trainers, practical outcomes.</p>
+  </footer>
 </body>
 </html>

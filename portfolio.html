@@ -3,43 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
   <title>Portfolio</title>
 </head>
 <body>
-  <header>
-    <h1>Portfolio</h1>
-    <nav>
+  <header class="site-header">
+    <div class="brand"><a href="index.html">NRIIT Learning</a></div>
+    <nav class="site-nav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="courses.html">Courses</a>
       <a href="trainers.html">Trainers</a>
-      <a href="login.html">Login</a>
       <a href="register.html">Register</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <main>
-    <h2>Ramya Nalam - Portfolio</h2>
-    <h3>About</h3>
-    <p>Python Full Stack Developer with expertise in backend and frontend development.</p>
-    <h3>Skills</h3>
-    <ul>
-      <li>Python</li>
-      <li>Django</li>
-      <li>React.js</li>
-      <li>JavaScript</li>
-      <li>HTML & CSS</li>
-      <li>MongoDB</li>
-    </ul>
-    <h3>Projects</h3>
-    <ul>
-      <li>Emotion Detection System</li>
-      <li>E-Pass Management System</li>
-      <li>VisionMate Application</li>
-    </ul>
-    <h3>Contact</h3>
-    <p>Email: ramya@example.com</p>
-    <p>Phone: +91 9876543210</p>
+  <main class="main-container">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Portfolio</span>
+        <h1>Ramya Nalam — Full stack developer portfolio</h1>
+        <p>A professional showcase of skills, projects, and experience in Python, web development, and modern app creation.</p>
+      </div>
+    </section>
+
+    <section class="content-card">
+      <h3>About</h3>
+      <p>Python Full Stack Developer with expertise in backend and frontend development.</p>
+    </section>
+
+    <section class="content-card">
+      <h3>Skills</h3>
+      <ul class="feature-list">
+        <li>Python</li>
+        <li>Django</li>
+        <li>React.js</li>
+        <li>JavaScript</li>
+        <li>HTML & CSS</li>
+        <li>MongoDB</li>
+      </ul>
+    </section>
+
+    <section class="content-card">
+      <h3>Projects</h3>
+      <ul class="feature-list">
+        <li>Emotion Detection System</li>
+        <li>E-Pass Management System</li>
+        <li>VisionMate Application</li>
+      </ul>
+    </section>
+
+    <section class="content-card">
+      <h3>Contact</h3>
+      <p>Email: ramya@example.com</p>
+      <p>Phone: +91 9876543210</p>
+    </section>
   </main>
+
+  <footer class="footer">
+    <p>© 2026 NRIIT Learning Management. Professional portfolio design.</p>
+  </footer>
 </body>
 </html>
