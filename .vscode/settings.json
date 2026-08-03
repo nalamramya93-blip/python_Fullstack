@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/env/bin/python",
+  "python.analysis.extraPaths": ["${workspaceFolder}"],
+  "python.analysis.packageIndexDepths": {
+    "flask": 3
+  }
+}
